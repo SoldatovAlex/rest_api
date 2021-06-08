@@ -48,3 +48,9 @@ GET methods with following path:
 Author used "Postman" software for testing application: 
 
 ![image](https://user-images.githubusercontent.com/52040568/121198324-b731ed80-c87a-11eb-910a-d63a2d5104fb.jpg)
+
+# Start application
+
+At first, install dependencies from requirements.txt, use command "pip install -r requirements.txt"
+For start rest_api_server use "python3 rest_api.py"
+
