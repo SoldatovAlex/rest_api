@@ -5,7 +5,7 @@ Task 1: Would need to build a REST API for storing user and transactions informa
 
 Task 2: Implement a function which will return n’th number of Fibonacci sequence.
 # Solution
-To implement the first task(to build a REST API), the following frameworks were chosen: flask, flask_restful,sqlalchemy. As DBMS was chosen sqlite3. The solution to the first task is contained in the files: 'rest_api', 'setup_db'
+To implement the first task(to build a REST API), the following frameworks were chosen: flask, flask_restful,sqlalchemy. The solution to the first task is contained in the files: 'rest_api', 'setup_db'.
 
 To implement the second task(return n’th number of Fibonacci sequence) were used standard library tools. In file 'utils' contained 2 solutions.
 
