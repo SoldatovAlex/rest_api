@@ -1,6 +1,8 @@
 # akvelon_python_internship_3_alex_soldatov
 Tasks description
+
 Task 1: Would need to build a REST API for storing user and transactions information. 
+
 Task 2: Implement a function which will return n’th number of Fibonacci sequence.
 # Solution
 To implement the first task(to build a REST API), the following frameworks were chosen: flask, flask_restful,sqlalchemy. As DBMS was chosen sqlite3. The solution to the first task is contained in the files: 'rest_api', 'setup_db'
@@ -28,9 +30,11 @@ This func takes input parameter - user id. In response, all user's transaction.
 Requests are created according to the following rules:
 
 Post methods: http://127.0.0.1:8000/user or http://127.0.0.1:8000/transaction
+
 Post request must have parameters for creating new entity in body. For example, for creating new user3's transaction in request's body must be in
 
 Put methods: http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
+
 Put methods like a post methods, must have params in request's body
 
 Get, Delete methods from Views: http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
