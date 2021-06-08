@@ -36,10 +36,10 @@ Put methods like a post methods, must have params in request's body
 Get, Delete methods from Views: http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
 
 GET methods with following path: 
-1)http://127.0.0.1:8000//transactionamountsort/<int:user_id>
-2)http://127.0.0.1:8000//transactiontype/<int:id>
-4)http://127.0.0.1:8000//userstransaction/<int:user_id>
-3)http://127.0.0.1:8000//sumbydate/<int:user_id>
+1. http://127.0.0.1:8000//transactionamountsort/<int:user_id>
+2. http://127.0.0.1:8000//transactiontype/<int:id>
+3. http://127.0.0.1:8000//sumbydate/<int:user_id>
+4. http://127.0.0.1:8000//userstransaction/<int:user_id>
 
 Author used "Postman" software for testing application: 
 
