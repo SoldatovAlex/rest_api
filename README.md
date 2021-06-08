@@ -30,7 +30,7 @@ Requests are created according to the following rules:
 Post methods: http://127.0.0.1:8000/user or http://127.0.0.1:8000/transaction
 Post request must have parameters for creating new entity in body. For example, for creating new user3's transaction in request's body must be in
 
-Put methods:http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
+Put methods: http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
 Put methods like a post methods, must have params in request's body
 
 Get, Delete methods from Views: http://127.0.0.1:8000/user/<int:id> or http://127.0.0.1:8000/transaction/<int:id>
