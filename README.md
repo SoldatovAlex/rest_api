@@ -1,4 +1,4 @@
-# akvelon_python_internship_3_alex_soldatov
+# akvelon_python_alex_soldatov
 Tasks description
 
 Task 1: Would need to build a REST API for storing user and transactions information. 
